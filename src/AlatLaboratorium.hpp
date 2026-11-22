@@ -10,14 +10,10 @@ private:
 	int jumlah;
 	
 public:
-//Ini Constructor
 	AlatLaboratorium (string n, string k, int j);
 	
-	//ini method
 	void tampilkanInfo();
-	
 	void tambahJumlah(int n);
-	
 	void kurangiJumlah(int n);
 };
 
